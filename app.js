@@ -42,9 +42,6 @@ function GEEKFORGEEKS() {
       alert("Please enter your male");
       what.focus();
       return false;
-    }else{
-      alert("are you Hijra");
     }
-
     return true;
   }
