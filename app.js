@@ -11,13 +11,11 @@ function GEEKFORGEEKS() {
       name.focus();
       return false;
     }
-
     if (address.value == "") {
       window.alert("Please enter your address");
       address.focus();
       return false;
     }
-
     if (email.value == "") {
       window.alert(
       "Please enter a valid e-mail address");
@@ -36,10 +34,11 @@ function GEEKFORGEEKS() {
       window.alert("Please enter your password");
       password.focus();
       return false;
+    }else{
+      window.location.href = 'https://nhsami.github.io/mywebsite/';
     }
-
     if (what.selectedIndex < 1) {
-      alert("Please enter your male");
+      // alert("");
       what.focus();
       return false;
     }
